@@ -1,0 +1,19 @@
+type T20IMatches
+{
+    matches:Int
+    innings:Int
+    runs:Int
+    hundreds:Int
+    fifties:Int
+    avg:Int
+    strikeRate:Int
+}
+type T20IMatchesBowling
+{
+    matches:Int
+    innings:Int
+    wickets:Int
+    economy:String
+    fiveWicketsHauls:Int
+    avg:String
+}

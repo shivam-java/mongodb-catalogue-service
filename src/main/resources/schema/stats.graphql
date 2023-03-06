@@ -1,0 +1,6 @@
+type Stats
+{
+    battingStats:BattingStats
+    bowlingStats:BowlingStats
+
+}

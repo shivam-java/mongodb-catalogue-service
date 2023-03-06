@@ -1,0 +1,6 @@
+type BattingStats
+{
+    testMatches:TestMatches
+    odiMatches:ODIMatches
+    t20IMatches:T20IMatches
+}

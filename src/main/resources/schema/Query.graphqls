@@ -1,0 +1,12 @@
+type Query
+{
+players(name:String):[Player]
+}
+
+
+
+
+
+
+
+

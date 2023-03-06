@@ -1,0 +1,6 @@
+type BowlingStats
+{
+    testMatches:TestMatchesBowling
+    odiMatches:ODIMatchesBowling
+    t20IMatches:T20IMatchesBowling
+}

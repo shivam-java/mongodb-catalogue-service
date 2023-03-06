@@ -1,0 +1,22 @@
+type TestMatches
+{
+    matches:Int
+    innings:Int
+    runs:Int
+    hundreds:Int
+    fifties:Int
+    avg:Int
+    strikeRate:Int
+}
+type TestMatchesBowling
+{
+    matches:Int
+    innings:Int
+    wickets:Int
+    economy:String
+    fiveWicketsHauls:Int
+    tenWicketsHauls:Int
+    avg:String
+
+
+}

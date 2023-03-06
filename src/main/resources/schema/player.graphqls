@@ -1,0 +1,6 @@
+type Player
+{
+    profile:Profile
+    stats:Stats
+    carrerSummary:CarrerSummary
+}

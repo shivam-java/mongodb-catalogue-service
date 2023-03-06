@@ -1,0 +1,11 @@
+type Profile
+{
+    name:String
+    country:String
+    birthPlace:String
+    age:Int
+    role:String
+    teams:[String]
+
+
+}

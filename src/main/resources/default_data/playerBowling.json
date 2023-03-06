@@ -1,0 +1,49 @@
+{
+  "_id": {
+    "$oid": "6404286de0c6436fcc861dbe"
+  },
+  "profile": {
+    "name": "James Anderson",
+    "country": "England",
+    "birthPlace": "Lancashire",
+    "age": 40,
+    "role": "Bowler",
+    "teams": [
+      "England",
+      "England A"
+    ]
+  },
+  "stats": {
+    "battingStats": {},
+    "bowlingStats": {
+      "testMatches": {
+        "matches": 179,
+        "innings": 333,
+        "wickets": 685,
+        "economy": 2.79,
+        "fiveWicketsHauls": 32,
+        "tenWicketsHauls": 3,
+        "avg": 25.99
+      },
+      "odiMatches": {
+        "matches": 194,
+        "innings": 191,
+        "wickets": 269,
+        "economy": 4.92,
+        "fiveWicketsHauls": 2,
+        "avg": 29.22
+      },
+      "t20IMatches": {
+        "matches": 19,
+        "innings": 19,
+        "wickets": 18,
+        "economy": 7.85,
+        "fiveWicketsHauls": 0,
+        "avg": 23.44
+      }
+    }
+  },
+  "carrerSummary": {
+    "carrerSummary": "James Anderson is perhaps the best swing bowler in the world at the present moment"
+  }
+}
