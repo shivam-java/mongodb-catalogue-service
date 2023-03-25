@@ -9,10 +9,16 @@ import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 		(exclude ={ MongoAutoConfiguration.class,
 				MongoDataAutoConfiguration.class})
 
-public class MongodbCatalogueServiceApplication {
+public class MongodbCatalogueServiceApplication extends SpringBootServletInitializer
+{
 
 	public static void main(String[] args) {
 		SpringApplication.run(MongodbCatalogueServiceApplication.class, args);
+	}
+	
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+		return builder.sources(MongodbCatalogueServiceApplication.class);
 	}
 
 }
